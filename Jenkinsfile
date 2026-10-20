@@ -17,7 +17,7 @@ pipeline {
 
         stage('Deploy') {
             steps {
-                sh 'sh 'docker compose up -d --build --remove-orphans''
+               sh 'docker compose up -d --build --remove-orphans'
             }
         }
 
